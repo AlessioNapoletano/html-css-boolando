@@ -85,16 +85,14 @@ main section.row-product{
     margin: 4rem auto;
     display: flex;
     justify-content: center;
+    width: 80%;
     height: 21rem;
-    width: 50rem;
-    top: 100px;
-    left: 100px;
 }
 
 main section.row-product > article.product{
     margin: 1rem .5rem;
+    width: 24%;
     height: 100%;
-    width: 30%;
     background-color: #eaeaea;
 }
 
@@ -108,13 +106,13 @@ main section.row-product > article.product span{
 }
 main section.row-product > article.product span.bk-red{
     background-color: #d72929;
-    bottom: 12px;
+    bottom: 10px;
     left: 0;
 }
 
 main section.row-product > article.product span.bk-green{
     background-color: #478120;
-    bottom: 12px;
+    bottom: 10px;
     left: 40px;
     margin-left: .5rem;
 }
