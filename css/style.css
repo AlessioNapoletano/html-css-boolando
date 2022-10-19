@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .p-relative{
@@ -15,8 +16,13 @@
     position: fixed;
 }
 
+.flex{
+    display: flex;
+}
+
 header{
     background-color: #dd702f;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.178);
     height: 3rem;
     top: 0;
     left: 0;
@@ -25,17 +31,54 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+
 }
 
 header section.main-header{
-    background-color: aqua;
     height: 2rem;
     width: 70%;
     top: 1%;
     right: 15%;
-    border: 1px black solid;
 }
 
+nav.gender{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+header nav.gender ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav.gender ul > li{
+    padding-right: .5rem;
+}
+
+
+header section.main-header div.box-logo{
+    width: 40%;
+    justify-content: center;
+}
+
+header section.main-header div.box-logo > #logo{
+    width: 10rem;
+}
+
+header section.main-header div.entitis {
+    color: white;
+    width: 30%;
+    justify-content: end;
+    align-items: center;
+
+}
+header section.main-header div.entitis > span{
+    padding-left: .5rem;
+}
+
+                                    /* MAIN*/
 
 main section.row-product{
     margin: 4rem auto;
