@@ -18,6 +18,13 @@
 header{
     background-color: #dd702f;
     height: 3rem;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header section.main-header{
