@@ -37,8 +37,6 @@ header{
 header section.main-header{
     height: 2rem;
     width: 70%;
-    top: 1%;
-    right: 15%;
 }
 
 nav.gender{
@@ -136,5 +134,32 @@ main section.row-product > article.product div.product-description span{
 
 footer{
     background-color: #202020;
-    height: 4rem;
+    height: 20rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+footer section.main-footer{
+    width: 70%;
+    border: 1px solid white;
+    height: 70%;
+
+}
+
+footer nav.signature ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav.signature ul > li{
+    padding-right: .5rem;
+}
+
+footer section.main-footer nav.social{
+    border: 1px solid white;
 }
