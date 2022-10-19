@@ -19,7 +19,6 @@
 .flex{
     display: flex;
 }
-
 header{
     background-color: #dd702f;
     box-shadow: 0 2px rgba(0, 0, 0, 0.178);
@@ -79,26 +78,62 @@ header section.main-header div.entitis > span{
     font-size: 1.5rem;
 }
 
+
                                     /* MAIN*/
 
 main section.row-product{
     margin: 4rem auto;
     display: flex;
     justify-content: center;
-    height: 20rem;
+    height: 21rem;
     width: 50rem;
-    border: 1px solid black;
     top: 100px;
     left: 100px;
 }
 
 main section.row-product > article.product{
     margin: 1rem .5rem;
-    height: 90%;
+    height: 100%;
     width: 30%;
     background-color: #eaeaea;
-    border: 1px solid black;
 }
+
+main section.row-product > article.product img{
+    width: 100%;
+    height: 100%;
+}
+main section.row-product > article.product span{
+    padding: .2rem;
+    color: white;
+}
+main section.row-product > article.product span.bk-red{
+    background-color: #d72929;
+    bottom: 12px;
+    left: 0;
+}
+
+main section.row-product > article.product span.bk-green{
+    background-color: #478120;
+    bottom: 12px;
+    left: 40px;
+    margin-left: .5rem;
+}
+
+/*Description bottom article product*/
+main section.row-product > article.product div.product-description p{
+    font-size: .8rem;
+}
+
+main section.row-product > article.product div.product-description p.font-red{
+    color: red;
+    font-weight: bold;
+}
+main section.row-product > article.product div.product-description span{
+    color: black;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
 
 
 footer{
